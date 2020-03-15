@@ -1,0 +1,18 @@
+{
+  "version": "0.92",
+  "homepage": "http://spring-fragrance.mints.ne.jp/aviutl/",
+  
+  "depends": "aviutl",
+
+  "url": "http://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip",
+  "hash": "cea425850c5d16b769fcb1d96b18a678d008ff50b11195319c0a4cd97ebb33c1",
+
+  "post_install": [
+    "cp \"$dir\\*\" \"$(appdir aviutl)\\current\""
+  ],
+
+  "notes": [
+    "aviutl-exeditはアンインストールに対応してません",
+    "scoop\\apps\\aviutl\\current から手動で削除してください"
+  ]
+}
